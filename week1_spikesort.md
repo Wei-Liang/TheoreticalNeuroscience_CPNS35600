@@ -32,5 +32,6 @@ Now you can modify the prm and dat files for our data and try sorting the spikes
 
 ## See also
 
+* [Original paper: Spike sorting for large, dense electrode arrays](https://www.nature.com/articles/nn.4268)
 * [Klusta github](https://github.com/kwikteam/klusta)
 * [Hanyu's notes from last year](https://gist.github.com/Hanyu-Li/37012b812c967c6381397b98c667faaf)
