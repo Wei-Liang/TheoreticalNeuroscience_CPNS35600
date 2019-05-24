@@ -51,7 +51,7 @@ pip install -e .
 4. Test installations by running the S1Code.py file in this repo
 ```bash
 cd ..
-git clone https://github.com/Hanyu-Li/pycog-workshop.git
+git clone https://github.com/Wei-Liang/TheoreticalNeuroscience_CPNS35600/pycog-workshop.git
 cd pycog-workshop/tutorial
 python S1Code.py
 ```
@@ -61,6 +61,10 @@ you should see training progresses
 
 - "MKL_THREADING_LAYER=GNU" error: (https://github.com/Theano/Theano/issues/6568)
 
+- "'module' object has no attribute 'to_rgba' " error : matplotlib version too low
+```bash
+    conda update matplotlib 
+```
 
 ### How pycog works
 Don't worry if you are not that familiar with python, you won't need to read through the bulk of their source code or start from scratch. However, You do need to understand how to build a "trial" code snippet that is compatible with the framework.
@@ -80,3 +84,8 @@ cd pycog-workshop/tutorial
 jupyter notebook pycog-workshop.ipynb
 ```
 You will need to build something like one of those "generate_trial" functions to define a behavioral task and write analytical functions for the simulation results.
+
+
+
+see also:
+pycog's repository: https://github.com/frsong/pycog for tips including parameter tuning
